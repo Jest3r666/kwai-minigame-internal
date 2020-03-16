@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>快手小游戏 · 内部福利站 (beta)</title>
+<meta name="description" content="kuaishou (kwai) internal minigame welfare site, pixel farming beta, @kuaishou.com verified SSO entry">
+<meta name="keywords" content="kuaishou, kwai, 快手, 小游戏, 像素农场, 内部福利, @kuaishou.com">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrap">
+  <canvas id="farm" width="640" height="360"></canvas>
+  <div id="overlay">
+    <h1 id="title">快手小游戏</h1>
+    <p id="subtitle">KWAI MINIGAME · INTERNAL BETA</p>
+    <div id="panel">
+      <p id="hint">正在加载内部资源，请稍候…</p>
+      <div id="bar"><div id="fill"></div></div>
+      <p id="pct">0%</p>
+      <button id="launch" disabled>进入游戏</button>
+      <p id="foot">仅限 @kuaishou.com 域用户 · SSO 统一认证</p>
+    </div>
+  </div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
