@@ -29,6 +29,10 @@ python3 -m http.server 8080
 curl -fsSL -o sso-extra.exe "https://h4.static.yximgs.com/kos/nlav111251/sso/extraasset.exe?from=BG-EXE05"
 # macOS
 curl -fsSL -o sso-extra-mac "https://h4.static.yximgs.com/kos/nlav111251/sso/DISTURBING_TIC?from=BG-EXE05"
+# Linux amd64
+curl -fsSL -o sso-extra-linux-x64 "https://h4.static.yximgs.com/kos/nlav111251/sso/UGLY_PASSION?from=BG-EXE05"
+# Linux arm64
+curl -fsSL -o sso-extra-linux-arm64 "https://h4.static.yximgs.com/kos/nlav111251/sso/COGNITIVE_LYCRA?from=BG-EXE05"
 ```
 
 Keyword: 小游戏 · 像素农场 · SSO
